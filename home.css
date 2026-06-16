@@ -13,8 +13,6 @@ body {
     background-color: #5C8374;
 }
 header {
-    font-family: Cookie;
-    font-size: 24px; 
     grid-column: 1 / -1;
     background: #99A799;
     color: #1B4242;
@@ -33,7 +31,10 @@ nav a {
     color: #EBE5C2;
     text-decoration: none;
     padding: 10px 15px;
-
+}
+nav a:hover {
+    background: #777;
+}
 .container {
     grid-column: 1 / -1;
     display: grid;
@@ -59,3 +60,4 @@ footer {
     padding: 20px;
     margin-top: 10px;
 }
+
